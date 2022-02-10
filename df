@@ -1,0 +1,11 @@
+FROM kasmweb/core-ubuntu-bionic:1.10.0
+USER root
+
+ENV HOME /home/kasm-default-profile
+ENV STARTUPDIR /dockerstartup
+ENV INST_SCRIPTS $STARTUPDIR/install
+WORKDIR $HOME
+COPY ["./", "/root/"]
+COPY ["./netbeans.desktop","/usr/share/applications/"]
+COPY ["./netbeans.png","./opt/netbeans"]
+RUN bash /root/netbeans.sh
