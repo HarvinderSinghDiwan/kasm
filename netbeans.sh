@@ -8,5 +8,5 @@ unzip ./netbeans*
 mv ./netbeans /opt/ 
 echo PATH="$PATH:/opt/netbeans/bin/" >> /root/.bashrc
 source /root/.bashrc
-cp ./netbeans.desktop /usr/share/applications/
-cp ./netbeans.png /opt/netbeans/
+cp /root/netbeans.desktop /usr/share/applications/
+cp /root/netbeans.png /opt/netbeans/

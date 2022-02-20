@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=PhpStorm
 Exec="/opt/PhpStorm/bin/phpstorm.sh"
-Icon=/opt/$(ls /opt | grep Php)/phpstorm.png
+Icon=/opt/phpstorm.png
 Categories=Application;Development;Java;IDE
 Version=1.0
 Type=Application

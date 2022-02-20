@@ -17,3 +17,6 @@ bash /root/get-docker.sh
 bash /root/phpstorm.sh
 bash /root/netbeans.sh
 bash /root/tools.sh
+bash /root/nextcloud.sh
+bash /root/obs.sh
+bash /root/remina.sh
